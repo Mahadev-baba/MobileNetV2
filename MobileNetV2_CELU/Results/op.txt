@@ -1,0 +1,104 @@
+C:\Users\HP\Desktop\Results\MobileNetV2_CELU>python MobileNetV2_CELU.py
+python: can't open file 'C:\\Users\\HP\\Desktop\\Results\\MobileNetV2_CELU\\MobileNetV2_CELU.py': [Errno 2] No such file or directory
+
+C:\Users\HP\Desktop\Results\MobileNetV2_CELU>python MobileNetV2_CELU.py
+Device: cuda
+GPU: NVIDIA RTX 4500 Ada Generation
+
+140K Epoch 1/10
+Train Loss: 0.0709 | Train Acc : 0.9711
+Val Loss  : 0.0186 | Val Acc   : 0.9933
+
+140K Epoch 2/10
+Train Loss: 0.0125 | Train Acc : 0.9954
+Val Loss  : 0.0158 | Val Acc   : 0.9944
+
+140K Epoch 3/10
+Train Loss: 0.0068 | Train Acc : 0.9976
+Val Loss  : 0.0282 | Val Acc   : 0.9916
+
+140K Epoch 4/10
+Train Loss: 0.0057 | Train Acc : 0.9982
+Val Loss  : 0.0098 | Val Acc   : 0.9970
+
+140K Epoch 5/10
+Train Loss: 0.0052 | Train Acc : 0.9983
+Val Loss  : 0.0131 | Val Acc   : 0.9953
+
+140K Epoch 6/10
+Train Loss: 0.0040 | Train Acc : 0.9986
+Val Loss  : 0.0062 | Val Acc   : 0.9982
+
+140K Epoch 7/10
+Train Loss: 0.0046 | Train Acc : 0.9985
+Val Loss  : 0.0090 | Val Acc   : 0.9971
+
+140K Epoch 8/10
+Train Loss: 0.0029 | Train Acc : 0.9990
+Val Loss  : 0.0070 | Val Acc   : 0.9977
+
+140K Epoch 9/10
+Train Loss: 0.0032 | Train Acc : 0.9988
+Val Loss  : 0.0235 | Val Acc   : 0.9926
+
+140K Epoch 10/10
+Train Loss: 0.0026 | Train Acc : 0.9992
+Val Loss  : 0.0042 | Val Acc   : 0.9989
+
+200K Epoch 1/10
+Train Loss: 0.2237 | Train Acc : 0.8873
+Val Loss  : 0.1544 | Val Acc   : 0.9202
+
+200K Epoch 2/10
+Train Loss: 0.1135 | Train Acc : 0.9411
+Val Loss  : 0.1197 | Val Acc   : 0.9393
+
+200K Epoch 3/10
+Train Loss: 0.0907 | Train Acc : 0.9537
+Val Loss  : 0.1232 | Val Acc   : 0.9416
+
+200K Epoch 4/10
+Train Loss: 0.0798 | Train Acc : 0.9611
+Val Loss  : 0.1075 | Val Acc   : 0.9503
+
+200K Epoch 5/10
+Train Loss: 0.0679 | Train Acc : 0.9683
+Val Loss  : 0.1016 | Val Acc   : 0.9556
+
+200K Epoch 6/10
+Train Loss: 0.0580 | Train Acc : 0.9742
+Val Loss  : 0.0878 | Val Acc   : 0.9615
+
+200K Epoch 7/10
+Train Loss: 0.0486 | Train Acc : 0.9786
+Val Loss  : 0.1115 | Val Acc   : 0.9592
+
+200K Epoch 8/10
+Train Loss: 0.0428 | Train Acc : 0.9818
+Val Loss  : 0.1307 | Val Acc   : 0.9547
+
+200K Epoch 9/10
+Train Loss: 0.0368 | Train Acc : 0.9848
+Val Loss  : 0.1043 | Val Acc   : 0.9608
+
+200K Epoch 10/10
+Train Loss: 0.0325 | Train Acc : 0.9869
+Val Loss  : 0.1197 | Val Acc   : 0.9601
+
+--- Final Summary Table ---
+            Metric         140K         200K
+0         Accuracy     0.998400     0.962875
+1        Precision     0.998599     0.964058
+2           Recall     0.998200     0.961600
+3               F1     0.998400     0.962828
+4              AUC     0.999982     0.995786
+5      Specificity     0.998600     0.964150
+6      Sensitivity     0.998200     0.961600
+7              MCC     0.996800     0.925753
+8            Kappa     0.996800     0.925750
+9    Training_Time  1197.966895  1430.744312
+10  Inference_Time    24.508106    32.418492
+11             FPS   816.056517  1233.863700
+
+Generating Performance Graphs...
+All figures successfully rendered and saved under the 'Results/' folder.
