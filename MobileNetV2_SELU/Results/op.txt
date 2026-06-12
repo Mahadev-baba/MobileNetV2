@@ -1,0 +1,103 @@
+C:\Users\HP\Desktop\Results\MobileNetV2_SELU>python MobileNetV2_SELU.py
+Device: cuda
+GPU: NVIDIA RTX 4500 Ada Generation
+
+140K Epoch 1/10
+Train Loss: 0.0818 | Train Acc : 0.9661
+Val Loss  : 0.0241 | Val Acc   : 0.9910
+
+140K Epoch 2/10
+Train Loss: 0.0126 | Train Acc : 0.9954
+Val Loss  : 0.0233 | Val Acc   : 0.9918
+
+140K Epoch 3/10
+Train Loss: 0.0075 | Train Acc : 0.9973
+Val Loss  : 0.0137 | Val Acc   : 0.9958
+
+140K Epoch 4/10
+Train Loss: 0.0063 | Train Acc : 0.9978
+Val Loss  : 0.0140 | Val Acc   : 0.9949
+
+140K Epoch 5/10
+Train Loss: 0.0059 | Train Acc : 0.9981
+Val Loss  : 0.0093 | Val Acc   : 0.9965
+
+140K Epoch 6/10
+Train Loss: 0.0044 | Train Acc : 0.9984
+Val Loss  : 0.0126 | Val Acc   : 0.9961
+
+140K Epoch 7/10
+Train Loss: 0.0047 | Train Acc : 0.9984
+Val Loss  : 0.0062 | Val Acc   : 0.9976
+
+140K Epoch 8/10
+Train Loss: 0.0032 | Train Acc : 0.9990
+Val Loss  : 0.0141 | Val Acc   : 0.9954
+
+140K Epoch 9/10
+Train Loss: 0.0035 | Train Acc : 0.9987
+Val Loss  : 0.0112 | Val Acc   : 0.9971
+
+140K Epoch 10/10
+Train Loss: 0.0025 | Train Acc : 0.9991
+Val Loss  : 0.0175 | Val Acc   : 0.9952
+
+200K Epoch 1/10
+Train Loss: 0.2384 | Train Acc : 0.8821
+Val Loss  : 0.1851 | Val Acc   : 0.9115
+
+200K Epoch 2/10
+Train Loss: 0.1180 | Train Acc : 0.9410
+Val Loss  : 0.1233 | Val Acc   : 0.9405
+
+200K Epoch 3/10
+Train Loss: 0.0920 | Train Acc : 0.9546
+Val Loss  : 0.1227 | Val Acc   : 0.9429
+
+200K Epoch 4/10
+Train Loss: 0.0790 | Train Acc : 0.9626
+Val Loss  : 0.1121 | Val Acc   : 0.9519
+
+200K Epoch 5/10
+Train Loss: 0.0681 | Train Acc : 0.9687
+Val Loss  : 0.1042 | Val Acc   : 0.9557
+
+200K Epoch 6/10
+Train Loss: 0.0582 | Train Acc : 0.9743
+Val Loss  : 0.1218 | Val Acc   : 0.9533
+
+200K Epoch 7/10
+Train Loss: 0.0501 | Train Acc : 0.9785
+Val Loss  : 0.1170 | Val Acc   : 0.9562
+
+200K Epoch 8/10
+Train Loss: 0.0431 | Train Acc : 0.9825
+Val Loss  : 0.1000 | Val Acc   : 0.9617
+
+200K Epoch 9/10
+Train Loss: 0.0375 | Train Acc : 0.9850
+Val Loss  : 0.0911 | Val Acc   : 0.9657
+
+200K Epoch 10/10
+Train Loss: 0.0337 | Train Acc : 0.9865
+Val Loss  : 0.1242 | Val Acc   : 0.9579
+
+--- Final Summary Table ---
+            Metric         140K         200K
+0         Accuracy     0.997600     0.967500
+1        Precision     0.998497     0.975053
+2           Recall     0.996700     0.959550
+3               F1     0.997598     0.967240
+4              AUC     0.999967     0.996505
+5      Specificity     0.998500     0.975450
+6      Sensitivity     0.996700     0.959550
+7              MCC     0.995202     0.935118
+8            Kappa     0.995200     0.935000
+9    Training_Time  1185.900236  1407.368956
+10  Inference_Time    23.318141    26.451915
+11             FPS   857.701290  1512.177864
+
+Generating Performance Graphs...
+All figures successfully rendered and saved under the 'Results/' folder.
+
+C:\Users\HP\Desktop\Results\MobileNetV2_SELU>
