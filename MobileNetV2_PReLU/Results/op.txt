@@ -1,0 +1,102 @@
+
+C:\Users\HP\Desktop\Results\MobileNetV2_PReLU>python MobileNetV2_PReLU.py
+Device: cuda
+GPU: NVIDIA RTX 4500 Ada Generation
+
+140K Epoch 1/10
+Train Loss: 0.0740 | Train Acc : 0.9705
+Val Loss  : 0.0182 | Val Acc   : 0.9936
+
+140K Epoch 2/10
+Train Loss: 0.0115 | Train Acc : 0.9961
+Val Loss  : 0.0131 | Val Acc   : 0.9958
+
+140K Epoch 3/10
+Train Loss: 0.0076 | Train Acc : 0.9974
+Val Loss  : 0.0103 | Val Acc   : 0.9967
+
+140K Epoch 4/10
+Train Loss: 0.0059 | Train Acc : 0.9981
+Val Loss  : 0.0103 | Val Acc   : 0.9968
+
+140K Epoch 5/10
+Train Loss: 0.0047 | Train Acc : 0.9983
+Val Loss  : 0.0104 | Val Acc   : 0.9969
+
+140K Epoch 6/10
+Train Loss: 0.0046 | Train Acc : 0.9983
+Val Loss  : 0.0089 | Val Acc   : 0.9972
+
+140K Epoch 7/10
+Train Loss: 0.0042 | Train Acc : 0.9985
+Val Loss  : 0.0060 | Val Acc   : 0.9980
+
+140K Epoch 8/10
+Train Loss: 0.0033 | Train Acc : 0.9990
+Val Loss  : 0.0065 | Val Acc   : 0.9977
+
+140K Epoch 9/10
+Train Loss: 0.0028 | Train Acc : 0.9991
+Val Loss  : 0.0065 | Val Acc   : 0.9980
+
+140K Epoch 10/10
+Train Loss: 0.0029 | Train Acc : 0.9990
+Val Loss  : 0.0080 | Val Acc   : 0.9973
+
+200K Epoch 1/10
+Train Loss: 0.2263 | Train Acc : 0.8853
+Val Loss  : 0.1424 | Val Acc   : 0.9264
+
+200K Epoch 2/10
+Train Loss: 0.1153 | Train Acc : 0.9403
+Val Loss  : 0.1228 | Val Acc   : 0.9319
+
+200K Epoch 3/10
+Train Loss: 0.0929 | Train Acc : 0.9528
+Val Loss  : 0.1196 | Val Acc   : 0.9432
+
+200K Epoch 4/10
+Train Loss: 0.0788 | Train Acc : 0.9614
+Val Loss  : 0.1157 | Val Acc   : 0.9481
+
+200K Epoch 5/10
+Train Loss: 0.0690 | Train Acc : 0.9679
+Val Loss  : 0.1046 | Val Acc   : 0.9543
+
+200K Epoch 6/10
+Train Loss: 0.0586 | Train Acc : 0.9742
+Val Loss  : 0.1018 | Val Acc   : 0.9567
+
+200K Epoch 7/10
+Train Loss: 0.0498 | Train Acc : 0.9789
+Val Loss  : 0.1061 | Val Acc   : 0.9581
+
+200K Epoch 8/10
+Train Loss: 0.0415 | Train Acc : 0.9825
+Val Loss  : 0.1043 | Val Acc   : 0.9617
+
+200K Epoch 9/10
+Train Loss: 0.0357 | Train Acc : 0.9856
+Val Loss  : 0.0908 | Val Acc   : 0.9648
+
+200K Epoch 10/10
+Train Loss: 0.0308 | Train Acc : 0.9876
+Val Loss  : 0.1030 | Val Acc   : 0.9636
+
+--- Final Summary Table ---
+            Metric         140K         200K
+0         Accuracy     0.998050     0.965475
+1        Precision     0.998499     0.970676
+2           Recall     0.997600     0.959950
+3               F1     0.998049     0.965283
+4              AUC     0.999971     0.996014
+5      Specificity     0.998500     0.971000
+6      Sensitivity     0.997600     0.959950
+7              MCC     0.996100     0.931007
+8            Kappa     0.996100     0.930950
+9    Training_Time  1229.636585  1448.625281
+10  Inference_Time    28.185904    37.620361
+11             FPS   709.574544  1063.254029
+
+Generating Performance Graphs...
+All figures successfully rendered and saved under the 'Results/' folder.
