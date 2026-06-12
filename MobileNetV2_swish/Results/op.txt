@@ -1,0 +1,103 @@
+C:\Users\HP\Desktop\Results\MobileNetV2_swish>python MobileNetV2_swish.py
+Device: cuda
+GPU: NVIDIA RTX 4500 Ada Generation
+
+140K Epoch 1/10
+Train Loss: 0.0718 | Train Acc : 0.9711
+Val Loss  : 0.0263 | Val Acc   : 0.9904
+
+140K Epoch 2/10
+Train Loss: 0.0115 | Train Acc : 0.9959
+Val Loss  : 0.0164 | Val Acc   : 0.9936
+
+140K Epoch 3/10
+Train Loss: 0.0069 | Train Acc : 0.9977
+Val Loss  : 0.0164 | Val Acc   : 0.9952
+
+140K Epoch 4/10
+Train Loss: 0.0064 | Train Acc : 0.9978
+Val Loss  : 0.0092 | Val Acc   : 0.9969
+
+140K Epoch 5/10
+Train Loss: 0.0045 | Train Acc : 0.9984
+Val Loss  : 0.0159 | Val Acc   : 0.9944
+
+140K Epoch 6/10
+Train Loss: 0.0042 | Train Acc : 0.9986
+Val Loss  : 0.0066 | Val Acc   : 0.9976
+
+140K Epoch 7/10
+Train Loss: 0.0041 | Train Acc : 0.9986
+Val Loss  : 0.0155 | Val Acc   : 0.9949
+
+140K Epoch 8/10
+Train Loss: 0.0031 | Train Acc : 0.9990
+Val Loss  : 0.0079 | Val Acc   : 0.9970
+
+140K Epoch 9/10
+Train Loss: 0.0027 | Train Acc : 0.9990
+Val Loss  : 0.0119 | Val Acc   : 0.9963
+
+140K Epoch 10/10
+Train Loss: 0.0033 | Train Acc : 0.9990
+Val Loss  : 0.0051 | Val Acc   : 0.9984
+
+200K Epoch 1/10
+Train Loss: 0.2204 | Train Acc : 0.8895
+Val Loss  : 0.1373 | Val Acc   : 0.9289
+
+200K Epoch 2/10
+Train Loss: 0.1139 | Train Acc : 0.9405
+Val Loss  : 0.1334 | Val Acc   : 0.9305
+
+200K Epoch 3/10
+Train Loss: 0.0930 | Train Acc : 0.9522
+Val Loss  : 0.1176 | Val Acc   : 0.9428
+
+200K Epoch 4/10
+Train Loss: 0.0796 | Train Acc : 0.9609
+Val Loss  : 0.1038 | Val Acc   : 0.9510
+
+200K Epoch 5/10
+Train Loss: 0.0682 | Train Acc : 0.9680
+Val Loss  : 0.0964 | Val Acc   : 0.9562
+
+200K Epoch 6/10
+Train Loss: 0.0589 | Train Acc : 0.9738
+Val Loss  : 0.1101 | Val Acc   : 0.9564
+
+200K Epoch 7/10
+Train Loss: 0.0487 | Train Acc : 0.9792
+Val Loss  : 0.2454 | Val Acc   : 0.9303
+
+200K Epoch 8/10
+Train Loss: 0.0429 | Train Acc : 0.9822
+Val Loss  : 0.0949 | Val Acc   : 0.9633
+
+200K Epoch 9/10
+Train Loss: 0.0358 | Train Acc : 0.9858
+Val Loss  : 0.1138 | Val Acc   : 0.9595
+
+200K Epoch 10/10
+Train Loss: 0.0316 | Train Acc : 0.9878
+Val Loss  : 0.1230 | Val Acc   : 0.9568
+
+--- Final Summary Table ---
+            Metric         140K         200K
+0         Accuracy     0.997750     0.963775
+1        Precision     0.998198     0.974717
+2           Recall     0.997300     0.952250
+3               F1     0.997749     0.963353
+4              AUC     0.999975     0.995932
+5      Specificity     0.998200     0.975300
+6      Sensitivity     0.997300     0.952250
+7              MCC     0.995500     0.927797
+8            Kappa     0.995500     0.927550
+9    Training_Time  1221.679181  1434.676441
+10  Inference_Time    26.672697    36.591701
+11             FPS   749.830440  1093.144057
+
+Generating Performance Graphs...
+All figures successfully rendered and saved under the 'Results/' folder.
+
+C:\Users\HP\Desktop\Results\MobileNetV2_swish>
